@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2262A8441D14454500182672 /* Yelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8431D14454500182672 /* Yelp.m */; };
+		2262A8461D144B5F00182672 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262A8451D144B5F00182672 /* CoreLocation.framework */; };
+		2262A84A1D14509000182672 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8491D14509000182672 /* SearchTableViewCell.m */; };
+		22FD3AE31D135BEB0059B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE21D135BEB0059B2E1 /* main.m */; };
+		22FD3AE61D135BEB0059B2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */; };
+		22FD3AE91D135BEB0059B2E1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */; };
+		22FD3AEC1D135BEB0059B2E1 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AEB1D135BEB0059B2E1 /* FindViewController.m */; };
+		22FD3AEF1D135BEB0059B2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FD3AED1D135BEB0059B2E1 /* Main.storyboard */; };
+		22FD3AF11D135BEB0059B2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FD3AF01D135BEB0059B2E1 /* Assets.xcassets */; };
+		22FD3AF41D135BEB0059B2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FD3AF21D135BEB0059B2E1 /* LaunchScreen.storyboard */; };
+		22FD3AFF1D135BEB0059B2E1 /* eat_here_or_thereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AFE1D135BEB0059B2E1 /* eat_here_or_thereTests.m */; };
+		22FD3B0A1D135BEB0059B2E1 /* eat_here_or_thereUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B091D135BEB0059B2E1 /* eat_here_or_thereUITests.m */; };
+		22FD3B1E1D13606D0059B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B181D13606D0059B2E1 /* main.m */; };
+		22FD3B1F1D13606D0059B2E1 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */; };
+		22FD3B201D13606D0059B2E1 /* YPAPISample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */; };
+		76E6C2BDF24E29B586D06B36 /* libPods-eat-here-or-there.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */; };
+		B79D77F8E1174F600A808AA0 /* libPods-eat-here-or-thereUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */; };
+		DEC01F2AAB8E3EAC60CD3132 /* libPods-eat-here-or-thereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FD3AFB1D135BEB0059B2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FD3AD61D135BEB0059B2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FD3ADD1D135BEB0059B2E1;
+			remoteInfo = "eat-here-or-there";
+		};
+		22FD3B061D135BEB0059B2E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FD3AD61D135BEB0059B2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FD3ADD1D135BEB0059B2E1;
+			remoteInfo = "eat-here-or-there";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A589E7FACC3101FD0D6F6DB /* Pods-eat-here-or-there.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-there.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-there.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2262A8421D14454500182672 /* Yelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yelp.h; sourceTree = "<group>"; };
+		2262A8431D14454500182672 /* Yelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yelp.m; sourceTree = "<group>"; };
+		2262A8451D144B5F00182672 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2262A8481D14509000182672 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		2262A8491D14509000182672 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		22FD3ADE1D135BEB0059B2E1 /* eat-here-or-there.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eat-here-or-there.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FD3AE21D135BEB0059B2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22FD3AE71D135BEB0059B2E1 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		22FD3AEA1D135BEB0059B2E1 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		22FD3AEB1D135BEB0059B2E1 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		22FD3AEE1D135BEB0059B2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FD3AF01D135BEB0059B2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FD3AF31D135BEB0059B2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FD3AF51D135BEB0059B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FD3AFA1D135BEB0059B2E1 /* eat-here-or-thereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eat-here-or-thereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FD3AFE1D135BEB0059B2E1 /* eat_here_or_thereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eat_here_or_thereTests.m; sourceTree = "<group>"; };
+		22FD3B001D135BEB0059B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FD3B051D135BEB0059B2E1 /* eat-here-or-thereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eat-here-or-thereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FD3B091D135BEB0059B2E1 /* eat_here_or_thereUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eat_here_or_thereUITests.m; sourceTree = "<group>"; };
+		22FD3B0B1D135BEB0059B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FD3B181D13606D0059B2E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		22FD3B1B1D13606D0059B2E1 /* YelpAPISample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPISample-Prefix.pch"; sourceTree = "<group>"; };
+		22FD3B1C1D13606D0059B2E1 /* YPAPISample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAPISample.h; sourceTree = "<group>"; };
+		22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAPISample.m; sourceTree = "<group>"; };
+		3AA91E2077A7C4587BF10A8E /* Pods-eat-here-or-thereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-thereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-thereUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830F282B2251645E64B815C5 /* Pods-eat-here-or-thereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF46CA83BC60E7AE3EA84FA /* Pods-eat-here-or-there.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-there.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there.release.xcconfig"; sourceTree = "<group>"; };
+		B0EE08F6D15D3730831A45A8 /* Pods-eat-here-or-thereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests.release.xcconfig"; sourceTree = "<group>"; };
+		E234D38294C6C6B1A331744A /* Pods-eat-here-or-thereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FD3ADB1D135BEB0059B2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262A8461D144B5F00182672 /* CoreLocation.framework in Frameworks */,
+				76E6C2BDF24E29B586D06B36 /* libPods-eat-here-or-there.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3AF71D135BEB0059B2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC01F2AAB8E3EAC60CD3132 /* libPods-eat-here-or-thereTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3B021D135BEB0059B2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D77F8E1174F600A808AA0 /* libPods-eat-here-or-thereUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1010C8AC8D4D183285C4ABAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8451D144B5F00182672 /* CoreLocation.framework */,
+				0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */,
+				510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */,
+				6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22FD3AD51D135BEB0059B2E1 = {
+			isa = PBXGroup;
+			children = (
+				22FD3B171D13606D0059B2E1 /* YelpAPISample */,
+				22FD3AE01D135BEB0059B2E1 /* eat-here-or-there */,
+				22FD3AFD1D135BEB0059B2E1 /* eat-here-or-thereTests */,
+				22FD3B081D135BEB0059B2E1 /* eat-here-or-thereUITests */,
+				22FD3ADF1D135BEB0059B2E1 /* Products */,
+				4694DE0FD516BE76BB55F4D6 /* Pods */,
+				1010C8AC8D4D183285C4ABAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22FD3ADF1D135BEB0059B2E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FD3ADE1D135BEB0059B2E1 /* eat-here-or-there.app */,
+				22FD3AFA1D135BEB0059B2E1 /* eat-here-or-thereTests.xctest */,
+				22FD3B051D135BEB0059B2E1 /* eat-here-or-thereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FD3AE01D135BEB0059B2E1 /* eat-here-or-there */ = {
+			isa = PBXGroup;
+			children = (
+				2262A8421D14454500182672 /* Yelp.h */,
+				2262A8431D14454500182672 /* Yelp.m */,
+				22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */,
+				22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */,
+				22FD3AE71D135BEB0059B2E1 /* SearchViewController.h */,
+				22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */,
+				22FD3AEA1D135BEB0059B2E1 /* FindViewController.h */,
+				22FD3AEB1D135BEB0059B2E1 /* FindViewController.m */,
+				22FD3AED1D135BEB0059B2E1 /* Main.storyboard */,
+				22FD3AF01D135BEB0059B2E1 /* Assets.xcassets */,
+				22FD3AF21D135BEB0059B2E1 /* LaunchScreen.storyboard */,
+				22FD3AF51D135BEB0059B2E1 /* Info.plist */,
+				2262A8481D14509000182672 /* SearchTableViewCell.h */,
+				2262A8491D14509000182672 /* SearchTableViewCell.m */,
+				22FD3AE11D135BEB0059B2E1 /* Supporting Files */,
+			);
+			path = "eat-here-or-there";
+			sourceTree = "<group>";
+		};
+		22FD3AE11D135BEB0059B2E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FD3AE21D135BEB0059B2E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FD3AFD1D135BEB0059B2E1 /* eat-here-or-thereTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FD3AFE1D135BEB0059B2E1 /* eat_here_or_thereTests.m */,
+				22FD3B001D135BEB0059B2E1 /* Info.plist */,
+			);
+			path = "eat-here-or-thereTests";
+			sourceTree = "<group>";
+		};
+		22FD3B081D135BEB0059B2E1 /* eat-here-or-thereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FD3B091D135BEB0059B2E1 /* eat_here_or_thereUITests.m */,
+				22FD3B0B1D135BEB0059B2E1 /* Info.plist */,
+			);
+			path = "eat-here-or-thereUITests";
+			sourceTree = "<group>";
+		};
+		22FD3B171D13606D0059B2E1 /* YelpAPISample */ = {
+			isa = PBXGroup;
+			children = (
+				22FD3B181D13606D0059B2E1 /* main.m */,
+				22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */,
+				22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */,
+				22FD3B1B1D13606D0059B2E1 /* YelpAPISample-Prefix.pch */,
+				22FD3B1C1D13606D0059B2E1 /* YPAPISample.h */,
+				22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */,
+			);
+			path = YelpAPISample;
+			sourceTree = "<group>";
+		};
+		4694DE0FD516BE76BB55F4D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A589E7FACC3101FD0D6F6DB /* Pods-eat-here-or-there.debug.xcconfig */,
+				9FF46CA83BC60E7AE3EA84FA /* Pods-eat-here-or-there.release.xcconfig */,
+				830F282B2251645E64B815C5 /* Pods-eat-here-or-thereTests.debug.xcconfig */,
+				B0EE08F6D15D3730831A45A8 /* Pods-eat-here-or-thereTests.release.xcconfig */,
+				E234D38294C6C6B1A331744A /* Pods-eat-here-or-thereUITests.debug.xcconfig */,
+				3AA91E2077A7C4587BF10A8E /* Pods-eat-here-or-thereUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FD3ADD1D135BEB0059B2E1 /* eat-here-or-there */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FD3B0E1D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-there" */;
+			buildPhases = (
+				EB188B50F7E0458A0BCD12B4 /* 📦 Check Pods Manifest.lock */,
+				22FD3ADA1D135BEB0059B2E1 /* Sources */,
+				22FD3ADB1D135BEB0059B2E1 /* Frameworks */,
+				22FD3ADC1D135BEB0059B2E1 /* Resources */,
+				75669A3FBD16F502A76AFF35 /* 📦 Embed Pods Frameworks */,
+				F15D4A558FEB2A012CF71CB8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eat-here-or-there";
+			productName = "eat-here-or-there";
+			productReference = 22FD3ADE1D135BEB0059B2E1 /* eat-here-or-there.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FD3AF91D135BEB0059B2E1 /* eat-here-or-thereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FD3B111D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereTests" */;
+			buildPhases = (
+				2A196F925375E531DCCFA9A4 /* 📦 Check Pods Manifest.lock */,
+				22FD3AF61D135BEB0059B2E1 /* Sources */,
+				22FD3AF71D135BEB0059B2E1 /* Frameworks */,
+				22FD3AF81D135BEB0059B2E1 /* Resources */,
+				CB17D1AA8218187B68C0B321 /* 📦 Embed Pods Frameworks */,
+				0C8AD28292B67B2DA6D59AE8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FD3AFC1D135BEB0059B2E1 /* PBXTargetDependency */,
+			);
+			name = "eat-here-or-thereTests";
+			productName = "eat-here-or-thereTests";
+			productReference = 22FD3AFA1D135BEB0059B2E1 /* eat-here-or-thereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FD3B041D135BEB0059B2E1 /* eat-here-or-thereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FD3B141D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereUITests" */;
+			buildPhases = (
+				4A9C4C03CF54E41A049692A3 /* 📦 Check Pods Manifest.lock */,
+				22FD3B011D135BEB0059B2E1 /* Sources */,
+				22FD3B021D135BEB0059B2E1 /* Frameworks */,
+				22FD3B031D135BEB0059B2E1 /* Resources */,
+				CFF7DD20DFDCAC8717B8E4F1 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FD3B071D135BEB0059B2E1 /* PBXTargetDependency */,
+			);
+			name = "eat-here-or-thereUITests";
+			productName = "eat-here-or-thereUITests";
+			productReference = 22FD3B051D135BEB0059B2E1 /* eat-here-or-thereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FD3AD61D135BEB0059B2E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dhananjay Suresh";
+				TargetAttributes = {
+					22FD3ADD1D135BEB0059B2E1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					22FD3AF91D135BEB0059B2E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 22FD3ADD1D135BEB0059B2E1;
+					};
+					22FD3B041D135BEB0059B2E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 22FD3ADD1D135BEB0059B2E1;
+					};
+				};
+			};
+			buildConfigurationList = 22FD3AD91D135BEB0059B2E1 /* Build configuration list for PBXProject "eat-here-or-there" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FD3AD51D135BEB0059B2E1;
+			productRefGroup = 22FD3ADF1D135BEB0059B2E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FD3ADD1D135BEB0059B2E1 /* eat-here-or-there */,
+				22FD3AF91D135BEB0059B2E1 /* eat-here-or-thereTests */,
+				22FD3B041D135BEB0059B2E1 /* eat-here-or-thereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FD3ADC1D135BEB0059B2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD3AF41D135BEB0059B2E1 /* LaunchScreen.storyboard in Resources */,
+				22FD3AF11D135BEB0059B2E1 /* Assets.xcassets in Resources */,
+				22FD3AEF1D135BEB0059B2E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3AF81D135BEB0059B2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3B031D135BEB0059B2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C8AD28292B67B2DA6D59AE8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A196F925375E531DCCFA9A4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A9C4C03CF54E41A049692A3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75669A3FBD16F502A76AFF35 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB17D1AA8218187B68C0B321 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF7DD20DFDCAC8717B8E4F1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB188B50F7E0458A0BCD12B4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F15D4A558FEB2A012CF71CB8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FD3ADA1D135BEB0059B2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD3B1E1D13606D0059B2E1 /* main.m in Sources */,
+				22FD3AEC1D135BEB0059B2E1 /* FindViewController.m in Sources */,
+				22FD3B201D13606D0059B2E1 /* YPAPISample.m in Sources */,
+				2262A8441D14454500182672 /* Yelp.m in Sources */,
+				22FD3AE61D135BEB0059B2E1 /* AppDelegate.m in Sources */,
+				2262A84A1D14509000182672 /* SearchTableViewCell.m in Sources */,
+				22FD3AE91D135BEB0059B2E1 /* SearchViewController.m in Sources */,
+				22FD3B1F1D13606D0059B2E1 /* NSURLRequest+OAuth.m in Sources */,
+				22FD3AE31D135BEB0059B2E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3AF61D135BEB0059B2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD3AFF1D135BEB0059B2E1 /* eat_here_or_thereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FD3B011D135BEB0059B2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FD3B0A1D135BEB0059B2E1 /* eat_here_or_thereUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FD3AFC1D135BEB0059B2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FD3ADD1D135BEB0059B2E1 /* eat-here-or-there */;
+			targetProxy = 22FD3AFB1D135BEB0059B2E1 /* PBXContainerItemProxy */;
+		};
+		22FD3B071D135BEB0059B2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FD3ADD1D135BEB0059B2E1 /* eat-here-or-there */;
+			targetProxy = 22FD3B061D135BEB0059B2E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FD3AED1D135BEB0059B2E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FD3AEE1D135BEB0059B2E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FD3AF21D135BEB0059B2E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FD3AF31D135BEB0059B2E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FD3B0C1D135BEB0059B2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FD3B0D1D135BEB0059B2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FD3B0F1D135BEB0059B2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A589E7FACC3101FD0D6F6DB /* Pods-eat-here-or-there.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eat-here-or-there/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-there";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22FD3B101D135BEB0059B2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF46CA83BC60E7AE3EA84FA /* Pods-eat-here-or-there.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eat-here-or-there/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-there";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22FD3B121D135BEB0059B2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830F282B2251645E64B815C5 /* Pods-eat-here-or-thereTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eat-here-or-thereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-thereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eat-here-or-there.app/eat-here-or-there";
+			};
+			name = Debug;
+		};
+		22FD3B131D135BEB0059B2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EE08F6D15D3730831A45A8 /* Pods-eat-here-or-thereTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eat-here-or-thereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-thereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eat-here-or-there.app/eat-here-or-there";
+			};
+			name = Release;
+		};
+		22FD3B151D135BEB0059B2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E234D38294C6C6B1A331744A /* Pods-eat-here-or-thereUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "eat-here-or-thereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-thereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "eat-here-or-there";
+			};
+			name = Debug;
+		};
+		22FD3B161D135BEB0059B2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA91E2077A7C4587BF10A8E /* Pods-eat-here-or-thereUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "eat-here-or-thereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-thereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "eat-here-or-there";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FD3AD91D135BEB0059B2E1 /* Build configuration list for PBXProject "eat-here-or-there" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD3B0C1D135BEB0059B2E1 /* Debug */,
+				22FD3B0D1D135BEB0059B2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FD3B0E1D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-there" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD3B0F1D135BEB0059B2E1 /* Debug */,
+				22FD3B101D135BEB0059B2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FD3B111D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD3B121D135BEB0059B2E1 /* Debug */,
+				22FD3B131D135BEB0059B2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FD3B141D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FD3B151D135BEB0059B2E1 /* Debug */,
+				22FD3B161D135BEB0059B2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FD3AD61D135BEB0059B2E1 /* Project object */;
+}
