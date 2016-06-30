@@ -14,6 +14,7 @@
 static NSString * const kAPIHost           = @"api.yelp.com";
 static NSString * const kSearchPath        = @"/v2/search/";
 static NSString * const kBusinessPath      = @"/v2/business/";
+static NSString * const kPhonePath      = @"/v2/phone_search/";
 static NSString * const kSearchLimit       = @"10";
 
 @implementation Yelp
@@ -36,6 +37,13 @@ static NSString * const kSearchLimit       = @"10";
             NSArray *businessArray = searchResponseJSON[@"businesses"];
             
             if ([businessArray count] > 0) {
+                FIRDatabaseReference *ref = [[[FIRDatabase database] reference] child:@"nyc"];
+                for (NSMutableDictionary *buisness in businessArray) {
+                    [[ref child:buisness[@"phone"]] observeSingleEventOfType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+                        NSDictionary *nycData = (NSDictionary *)snapshot;
+                        buisness[@"nyc"] = nycData;
+                    }];
+                }
                 completionHandler(businessArray, error);
             } else {
                 completionHandler(nil, error); // No business was found

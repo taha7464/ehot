@@ -10,6 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "Yelp.h"
 #import "SearchTableViewCell.h"
+@import Firebase;
 
 @interface SearchViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate, CLLocationManagerDelegate>
 
@@ -19,6 +20,7 @@
 @property (strong, nonatomic) CLLocationManager *locationManager;
 @property (strong, nonatomic) CLLocation *currentLocation;
 @property (strong, nonatomic) NSString *currentCity;
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 - (IBAction)search:(id)sender;
 @end

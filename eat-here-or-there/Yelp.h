@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NSURLRequest+OAuth.h"
-
+@import Firebase;
 @interface Yelp : NSObject
 
 /**

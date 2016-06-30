@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22468BAC1D2015AB005A61C7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22468BA91D2015AB005A61C7 /* FBSDKCoreKit.framework */; };
+		22468BAD1D2015AB005A61C7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22468BAA1D2015AB005A61C7 /* FBSDKLoginKit.framework */; };
+		22468BAE1D2015AB005A61C7 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22468BAB1D2015AB005A61C7 /* FBSDKShareKit.framework */; };
+		22468BB41D202693005A61C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22468BB31D202693005A61C7 /* GoogleService-Info.plist */; };
 		2262A8441D14454500182672 /* Yelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8431D14454500182672 /* Yelp.m */; };
 		2262A8461D144B5F00182672 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262A8451D144B5F00182672 /* CoreLocation.framework */; };
 		2262A84A1D14509000182672 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8491D14509000182672 /* SearchTableViewCell.m */; };
+		22A77F721D1C9F8800DEDDB5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A77F711D1C9F8800DEDDB5 /* UserViewController.m */; };
+		22B4867D1D233745009948F8 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4867C1D233745009948F8 /* CreateUserViewController.m */; };
 		22FD3AE31D135BEB0059B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE21D135BEB0059B2E1 /* main.m */; };
 		22FD3AE61D135BEB0059B2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */; };
 		22FD3AE91D135BEB0059B2E1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */; };
@@ -22,9 +28,9 @@
 		22FD3B1E1D13606D0059B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B181D13606D0059B2E1 /* main.m */; };
 		22FD3B1F1D13606D0059B2E1 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */; };
 		22FD3B201D13606D0059B2E1 /* YPAPISample.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */; };
-		76E6C2BDF24E29B586D06B36 /* libPods-eat-here-or-there.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */; };
-		B79D77F8E1174F600A808AA0 /* libPods-eat-here-or-thereUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */; };
-		DEC01F2AAB8E3EAC60CD3132 /* libPods-eat-here-or-thereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */; };
+		56F3F81EF364FDD273BF61A9 /* Pods_eat_here_or_thereTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1719384260C3AB1B6C857B /* Pods_eat_here_or_thereTests.framework */; };
+		B2CDCE8C27E35E59D573EEED /* Pods_eat_here_or_there.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0CE6A1DA82DF49ACEE83BB /* Pods_eat_here_or_there.framework */; };
+		EB7BB48710907D9E0BD43685 /* Pods_eat_here_or_thereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790CA8B096DC53387AAD2A70 /* Pods_eat_here_or_thereUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +52,23 @@
 
 /* Begin PBXFileReference section */
 		0A589E7FACC3101FD0D6F6DB /* Pods-eat-here-or-there.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-there.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there.debug.xcconfig"; sourceTree = "<group>"; };
-		0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-there.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22468BA31D20158D005A61C7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.13.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		22468BA41D20158D005A61C7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.13.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		22468BA51D20158D005A61C7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-4.13.1/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		22468BA91D2015AB005A61C7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "eat-here-or-there/Frameworks/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		22468BAA1D2015AB005A61C7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "eat-here-or-there/Frameworks/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		22468BAB1D2015AB005A61C7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "eat-here-or-there/Frameworks/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		22468BAF1D201787005A61C7 /* eat-here-or-there-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eat-here-or-there-Bridging-Header.h"; sourceTree = "<group>"; };
+		22468BB31D202693005A61C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2262A8421D14454500182672 /* Yelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yelp.h; sourceTree = "<group>"; };
 		2262A8431D14454500182672 /* Yelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yelp.m; sourceTree = "<group>"; };
 		2262A8451D144B5F00182672 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2262A8481D14509000182672 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
 		2262A8491D14509000182672 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		22A77F701D1C9F8800DEDDB5 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		22A77F711D1C9F8800DEDDB5 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		22B4867B1D233745009948F8 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		22B4867C1D233745009948F8 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
 		22FD3ADE1D135BEB0059B2E1 /* eat-here-or-there.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eat-here-or-there.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FD3AE21D135BEB0059B2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,18 +88,19 @@
 		22FD3B091D135BEB0059B2E1 /* eat_here_or_thereUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eat_here_or_thereUITests.m; sourceTree = "<group>"; };
 		22FD3B0B1D135BEB0059B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22FD3B181D13606D0059B2E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
-		22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+OAuth.h"; path = "../YelpAPISample/NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+OAuth.m"; path = "../YelpAPISample/NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
 		22FD3B1B1D13606D0059B2E1 /* YelpAPISample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YelpAPISample-Prefix.pch"; sourceTree = "<group>"; };
 		22FD3B1C1D13606D0059B2E1 /* YPAPISample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPAPISample.h; sourceTree = "<group>"; };
 		22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPAPISample.m; sourceTree = "<group>"; };
 		3AA91E2077A7C4587BF10A8E /* Pods-eat-here-or-thereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests.release.xcconfig"; sourceTree = "<group>"; };
-		510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-thereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eat-here-or-thereUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790CA8B096DC53387AAD2A70 /* Pods_eat_here_or_thereUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eat_here_or_thereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		830F282B2251645E64B815C5 /* Pods-eat-here-or-thereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FF46CA83BC60E7AE3EA84FA /* Pods-eat-here-or-there.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-there.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there.release.xcconfig"; sourceTree = "<group>"; };
+		AD1719384260C3AB1B6C857B /* Pods_eat_here_or_thereTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eat_here_or_thereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EE08F6D15D3730831A45A8 /* Pods-eat-here-or-thereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests.release.xcconfig"; sourceTree = "<group>"; };
 		E234D38294C6C6B1A331744A /* Pods-eat-here-or-thereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat-here-or-thereUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0CE6A1DA82DF49ACEE83BB /* Pods_eat_here_or_there.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eat_here_or_there.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +109,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2262A8461D144B5F00182672 /* CoreLocation.framework in Frameworks */,
-				76E6C2BDF24E29B586D06B36 /* libPods-eat-here-or-there.a in Frameworks */,
+				B2CDCE8C27E35E59D573EEED /* Pods_eat_here_or_there.framework in Frameworks */,
+				22468BAC1D2015AB005A61C7 /* FBSDKCoreKit.framework in Frameworks */,
+				22468BAD1D2015AB005A61C7 /* FBSDKLoginKit.framework in Frameworks */,
+				22468BAE1D2015AB005A61C7 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC01F2AAB8E3EAC60CD3132 /* libPods-eat-here-or-thereTests.a in Frameworks */,
+				56F3F81EF364FDD273BF61A9 /* Pods_eat_here_or_thereTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79D77F8E1174F600A808AA0 /* libPods-eat-here-or-thereUITests.a in Frameworks */,
+				EB7BB48710907D9E0BD43685 /* Pods_eat_here_or_thereUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,10 +138,16 @@
 		1010C8AC8D4D183285C4ABAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22468BA91D2015AB005A61C7 /* FBSDKCoreKit.framework */,
+				22468BAA1D2015AB005A61C7 /* FBSDKLoginKit.framework */,
+				22468BAB1D2015AB005A61C7 /* FBSDKShareKit.framework */,
+				22468BA31D20158D005A61C7 /* FBSDKCoreKit.framework */,
+				22468BA41D20158D005A61C7 /* FBSDKLoginKit.framework */,
+				22468BA51D20158D005A61C7 /* FBSDKShareKit.framework */,
 				2262A8451D144B5F00182672 /* CoreLocation.framework */,
-				0FD2FB375DBA9386F82AB5FD /* libPods-eat-here-or-there.a */,
-				510CCD7E73FE958543DA78FD /* libPods-eat-here-or-thereTests.a */,
-				6084E90FC0F8E1BF066AF8EC /* libPods-eat-here-or-thereUITests.a */,
+				EB0CE6A1DA82DF49ACEE83BB /* Pods_eat_here_or_there.framework */,
+				AD1719384260C3AB1B6C857B /* Pods_eat_here_or_thereTests.framework */,
+				790CA8B096DC53387AAD2A70 /* Pods_eat_here_or_thereUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,21 +178,29 @@
 		22FD3AE01D135BEB0059B2E1 /* eat-here-or-there */ = {
 			isa = PBXGroup;
 			children = (
+				22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */,
+				22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */,
 				2262A8421D14454500182672 /* Yelp.h */,
 				2262A8431D14454500182672 /* Yelp.m */,
 				22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */,
 				22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */,
+				22A77F701D1C9F8800DEDDB5 /* UserViewController.h */,
+				22A77F711D1C9F8800DEDDB5 /* UserViewController.m */,
 				22FD3AE71D135BEB0059B2E1 /* SearchViewController.h */,
 				22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */,
 				22FD3AEA1D135BEB0059B2E1 /* FindViewController.h */,
 				22FD3AEB1D135BEB0059B2E1 /* FindViewController.m */,
+				22B4867B1D233745009948F8 /* CreateUserViewController.h */,
+				22B4867C1D233745009948F8 /* CreateUserViewController.m */,
 				22FD3AED1D135BEB0059B2E1 /* Main.storyboard */,
 				22FD3AF01D135BEB0059B2E1 /* Assets.xcassets */,
 				22FD3AF21D135BEB0059B2E1 /* LaunchScreen.storyboard */,
 				22FD3AF51D135BEB0059B2E1 /* Info.plist */,
+				22468BB31D202693005A61C7 /* GoogleService-Info.plist */,
 				2262A8481D14509000182672 /* SearchTableViewCell.h */,
 				2262A8491D14509000182672 /* SearchTableViewCell.m */,
 				22FD3AE11D135BEB0059B2E1 /* Supporting Files */,
+				22468BAF1D201787005A61C7 /* eat-here-or-there-Bridging-Header.h */,
 			);
 			path = "eat-here-or-there";
 			sourceTree = "<group>";
@@ -200,8 +235,6 @@
 			isa = PBXGroup;
 			children = (
 				22FD3B181D13606D0059B2E1 /* main.m */,
-				22FD3B191D13606D0059B2E1 /* NSURLRequest+OAuth.h */,
-				22FD3B1A1D13606D0059B2E1 /* NSURLRequest+OAuth.m */,
 				22FD3B1B1D13606D0059B2E1 /* YelpAPISample-Prefix.pch */,
 				22FD3B1C1D13606D0059B2E1 /* YPAPISample.h */,
 				22FD3B1D1D13606D0059B2E1 /* YPAPISample.m */,
@@ -229,12 +262,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FD3B0E1D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-there" */;
 			buildPhases = (
-				EB188B50F7E0458A0BCD12B4 /* 📦 Check Pods Manifest.lock */,
+				EB188B50F7E0458A0BCD12B4 /* [CP] Check Pods Manifest.lock */,
 				22FD3ADA1D135BEB0059B2E1 /* Sources */,
 				22FD3ADB1D135BEB0059B2E1 /* Frameworks */,
 				22FD3ADC1D135BEB0059B2E1 /* Resources */,
-				75669A3FBD16F502A76AFF35 /* 📦 Embed Pods Frameworks */,
-				F15D4A558FEB2A012CF71CB8 /* 📦 Copy Pods Resources */,
+				75669A3FBD16F502A76AFF35 /* [CP] Embed Pods Frameworks */,
+				F15D4A558FEB2A012CF71CB8 /* [CP] Copy Pods Resources */,
+				22468BB21D201DB8005A61C7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,12 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FD3B111D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereTests" */;
 			buildPhases = (
-				2A196F925375E531DCCFA9A4 /* 📦 Check Pods Manifest.lock */,
+				2A196F925375E531DCCFA9A4 /* [CP] Check Pods Manifest.lock */,
 				22FD3AF61D135BEB0059B2E1 /* Sources */,
 				22FD3AF71D135BEB0059B2E1 /* Frameworks */,
 				22FD3AF81D135BEB0059B2E1 /* Resources */,
-				CB17D1AA8218187B68C0B321 /* 📦 Embed Pods Frameworks */,
-				0C8AD28292B67B2DA6D59AE8 /* 📦 Copy Pods Resources */,
+				CB17D1AA8218187B68C0B321 /* [CP] Embed Pods Frameworks */,
+				0C8AD28292B67B2DA6D59AE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,11 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FD3B141D135BEB0059B2E1 /* Build configuration list for PBXNativeTarget "eat-here-or-thereUITests" */;
 			buildPhases = (
-				4A9C4C03CF54E41A049692A3 /* 📦 Check Pods Manifest.lock */,
+				4A9C4C03CF54E41A049692A3 /* [CP] Check Pods Manifest.lock */,
 				22FD3B011D135BEB0059B2E1 /* Sources */,
 				22FD3B021D135BEB0059B2E1 /* Frameworks */,
 				22FD3B031D135BEB0059B2E1 /* Resources */,
-				CFF7DD20DFDCAC8717B8E4F1 /* 📦 Copy Pods Resources */,
+				CFF7DD20DFDCAC8717B8E4F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22FD3AF41D135BEB0059B2E1 /* LaunchScreen.storyboard in Resources */,
+				22468BB41D202693005A61C7 /* GoogleService-Info.plist in Resources */,
 				22FD3AF11D135BEB0059B2E1 /* Assets.xcassets in Resources */,
 				22FD3AEF1D135BEB0059B2E1 /* Main.storyboard in Resources */,
 			);
@@ -356,14 +391,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C8AD28292B67B2DA6D59AE8 /* 📦 Copy Pods Resources */ = {
+		0C8AD28292B67B2DA6D59AE8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,14 +406,27 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2A196F925375E531DCCFA9A4 /* 📦 Check Pods Manifest.lock */ = {
+		22468BB21D201DB8005A61C7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 843da67291a5c3dd1d03512f7e167fe4b63dca2b a4a11bfa11c66036c595d79ef5aef07275979375d412f7393b8e1ab1c3086baa";
+		};
+		2A196F925375E531DCCFA9A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,14 +434,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		4A9C4C03CF54E41A049692A3 /* 📦 Check Pods Manifest.lock */ = {
+		4A9C4C03CF54E41A049692A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,14 +449,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		75669A3FBD16F502A76AFF35 /* 📦 Embed Pods Frameworks */ = {
+		75669A3FBD16F502A76AFF35 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,14 +464,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-there/Pods-eat-here-or-there-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB17D1AA8218187B68C0B321 /* 📦 Embed Pods Frameworks */ = {
+		CB17D1AA8218187B68C0B321 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,14 +479,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereTests/Pods-eat-here-or-thereTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CFF7DD20DFDCAC8717B8E4F1 /* 📦 Copy Pods Resources */ = {
+		CFF7DD20DFDCAC8717B8E4F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,14 +494,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat-here-or-thereUITests/Pods-eat-here-or-thereUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB188B50F7E0458A0BCD12B4 /* 📦 Check Pods Manifest.lock */ = {
+		EB188B50F7E0458A0BCD12B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,14 +509,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F15D4A558FEB2A012CF71CB8 /* 📦 Copy Pods Resources */ = {
+		F15D4A558FEB2A012CF71CB8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +531,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B4867D1D233745009948F8 /* CreateUserViewController.m in Sources */,
 				22FD3B1E1D13606D0059B2E1 /* main.m in Sources */,
+				22A77F721D1C9F8800DEDDB5 /* UserViewController.m in Sources */,
 				22FD3AEC1D135BEB0059B2E1 /* FindViewController.m in Sources */,
 				22FD3B201D13606D0059B2E1 /* YPAPISample.m in Sources */,
 				2262A8441D14454500182672 /* Yelp.m in Sources */,
@@ -635,10 +685,19 @@
 			baseConfigurationReference = 0A589E7FACC3101FD0D6F6DB /* Pods-eat-here-or-there.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eat-here-or-there/Frameworks",
+				);
 				INFOPLIST_FILE = "eat-here-or-there/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-there";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eat-here-or-there/eat-here-or-there-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -647,10 +706,17 @@
 			baseConfigurationReference = 9FF46CA83BC60E7AE3EA84FA /* Pods-eat-here-or-there.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eat-here-or-there/Frameworks",
+				);
 				INFOPLIST_FILE = "eat-here-or-there/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DJ.eat-here-or-there";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eat-here-or-there/eat-here-or-there-Bridging-Header.h";
 			};
 			name = Release;
 		};
