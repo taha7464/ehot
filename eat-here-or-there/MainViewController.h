@@ -1,13 +1,13 @@
 //
-//  UserViewController.m
+//  MainViewController.h
 //  eat-here-or-there
 //
 //  Created by Dhananjay Suresh on 6/30/16.
 //  Copyright © 2016 Dhananjay Suresh. All rights reserved.
 //
 
-#import "UserViewController.h"
+#import <UIKit/UIKit.h>
 
-@implementation UserViewController
+@interface MainViewController : UIViewController
 
 @end
