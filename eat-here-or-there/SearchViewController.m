@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.ref = [[FIRDatabase database] reference];
+    //self.ref = [[FIRDatabase database] reference];
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     

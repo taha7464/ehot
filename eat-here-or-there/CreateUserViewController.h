@@ -12,16 +12,15 @@
 @import APValidators;
 @interface CreateUserViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet APRequiredValidator *requiredValidator;
-@property (strong, nonatomic) IBOutlet APRegexValidator *passwordValidator;
+@property (strong, nonatomic) IBOutlet APCharactersCountValidator *passwordValidator;
 @property (strong, nonatomic) IBOutlet APEmailValidator *emailValidator;
-@property (strong, nonatomic) IBOutlet APEqualStringValidator *confirmValidator;
 
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *emailTF;
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *passwordTF;
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *confirmTF;
 
 - (IBAction)submit:(id)sender;
+- (IBAction)cancel:(id)sender;
 
 
 @end

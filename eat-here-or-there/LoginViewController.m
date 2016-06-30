@@ -1,26 +1,18 @@
 //
-//  UserViewController.m
+//  LoginViewController.m
 //  eat-here-or-there
 //
 //  Created by Dhananjay Suresh on 6/23/16.
 //  Copyright © 2016 Dhananjay Suresh. All rights reserved.
 //
 
-#import "UserViewController.h"
+#import "LoginViewController.h"
 
-@implementation UserViewController
+@implementation LoginViewController
 
 - (void) viewDidLoad {
     [super viewDidLoad];
-    
-    [[FIRAuth auth] addAuthStateDidChangeListener:^(FIRAuth *_Nonnull auth,
-                                                    FIRUser *_Nullable user) {
-        if (user != nil) {
-            // User is signed in.
-        } else {
-            // No user is signed in.
-        }
-    }];
+    _emailTF.delegate = self;
     [self setup];
 }
 
@@ -42,13 +34,15 @@
                                                  secret:session.authTokenSecret];
             [[FIRAuth auth] signInWithCredential:credential
                                       completion:^(FIRUser *user, NSError *error) {
-                                          // ...
+                                          [self didLogIn:error];
                                       }];
         } else {
             // ...
         }
     }];
 }
+
+#pragma mark login delegates
 
 - (void)loginButton:(FBSDKLoginButton *)loginButton
 didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
@@ -60,7 +54,7 @@ didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
                                          .tokenString];
         [[FIRAuth auth] signInWithCredential:credential
                                   completion:^(FIRUser *user, NSError *error) {
-                                      // ...
+                                      [self didLogIn:error];
                                   }];
     } else {
         NSLog(@"%@", error.localizedDescription);
@@ -77,15 +71,36 @@ didSignInForUser:(GIDGoogleUser *)user
                                          accessToken:authentication.accessToken];
         [[FIRAuth auth] signInWithCredential:credential
                                   completion:^(FIRUser *user, NSError *error) {
-                                      // ...
+                                     [self didLogIn:error];
                                   }];
     } else {
         
     }
 }
+
+#pragma mark UITextField Delegate
+- (void)textFieldDidBeginEditing:(UITextField *)textField{
+    _emailTF.errorMessage = @"";
+}
+
+#pragma mark login helpers
 - (IBAction)createUser:(id)sender {
+    [self performSegueWithIdentifier:@"createUser" sender:self];
 }
 
 - (IBAction)signIn:(id)sender {
+    [[FIRAuth auth] signInWithEmail:_emailTF.text
+                           password:_passwordTF.text
+                         completion:^(FIRUser *user, NSError *error) {
+                             [self didLogIn:error];
+                         }];
+}
+
+-(void) didLogIn :(NSError *) error{
+    if(error == nil)
+        [self dismissViewControllerAnimated:YES completion:nil];
+    else {
+        _emailTF.errorMessage = @"Invalid Login";
+    }
 }
 @end

@@ -13,20 +13,25 @@
 
 
 - (IBAction)submit:(id)sender {
-    __block BOOL isValid = false;
-    [_requiredValidator validate];
-    isValid = isValid && _requiredValidator.isValid;
+    __block BOOL isValid = YES;
+    if(_emailTF.text.length <= 0) {
+        _emailTF.errorMessage = @"Required";
+        isValid = NO;
+    }
+    if(_passwordTF.text.length <= 0) {
+        _passwordTF.errorMessage = @"Required";
+        isValid = NO;
+    }
+    if(_confirmTF.text.length <= 0) {
+        _confirmTF.errorMessage = @"Required";
+        isValid = NO;
+    }
     if(isValid) {
         _emailTF.errorMessage = @"";
         _passwordTF.errorMessage = @"";
         _confirmTF.errorMessage = @"";
+        isValid = isValid && YES;
     } else {
-        if(_emailTF.text.length <= 0)
-            _emailTF.errorMessage = @"Required";
-        if(_passwordTF.text.length <= 0)
-            _passwordTF.errorMessage = @"Required";
-        if(_confirmTF.text.length <= 0)
-            _confirmTF.errorMessage = @"Required";
         return;
     }
     
@@ -43,17 +48,17 @@
     if(isValid) {
         _passwordTF.errorMessage = @"";
     } else {
-        _passwordTF.errorMessage = @"Not valid password";
+        _passwordTF.errorMessage = @"Password must be atleast 8 characters";
         return;
     }
-    [_confirmValidator validate];
-    isValid = isValid && _confirmValidator.isValid;
-    if(isValid) {
+    if([_passwordTF.text isEqualToString:_confirmTF.text]) {
         _passwordTF.errorMessage = @"";
         _confirmTF.errorMessage = @"";
+        isValid = isValid && YES;
     } else {
         _passwordTF.errorMessage = @"Passwords do not match";
         _confirmTF.errorMessage = @" ";
+        isValid = NO;
         return;
     }
     
@@ -62,7 +67,32 @@
      password:_passwordTF.text
      completion:^(FIRUser *_Nullable user,
                   NSError *_Nullable error) {
-         // ...
+         if (error == nil) {
+             UIAlertController * alert = [UIAlertController
+                                          alertControllerWithTitle:@"Sucess"
+                                          message:@"Created account!"
+                                          preferredStyle:UIAlertControllerStyleAlert];
+             
+             UIAlertAction* okButton = [UIAlertAction
+                                        actionWithTitle:@"Ok"
+                                        style:UIAlertActionStyleDefault
+                                        handler:^(UIAlertAction * action) {
+                                            //Handle your yes please button action here
+                                        }];
+             
+             
+             [alert addAction:okButton];
+             
+             [self presentViewController:alert animated:YES completion:nil];
+             [self performSegueWithIdentifier:@"createdUser" sender:self];
+         } else {
+             _emailTF.errorMessage = @"Unable to create account";
+         }
+         
      }];
+}
+
+- (IBAction)cancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

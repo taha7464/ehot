@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SearchViewController.h"
+#import "FindViewController.h"
+#import "UserViewController.h"
+@import Firebase;
+@import ESTabBarController;
 
 @interface MainViewController : UIViewController
 

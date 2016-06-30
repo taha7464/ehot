@@ -1,5 +1,5 @@
 //
-//  UserViewController.h
+//  LoginViewController.h
 //  eat-here-or-there
 //
 //  Created by Dhananjay Suresh on 6/23/16.
@@ -15,9 +15,9 @@
 @import TwitterKit;
 @import GoogleSignIn;
 
-@interface UserViewController : UIViewController <FBSDKLoginButtonDelegate, GIDSignInUIDelegate>
+@interface LoginViewController : UIViewController <FBSDKLoginButtonDelegate, GIDSignInUIDelegate, UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *usernameTF;
+@property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *emailTF;
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextFieldWithIcon *passwordTF;
 @property (weak, nonatomic) IBOutlet FBSDKLoginButton *fbButton;
 @property (weak, nonatomic) IBOutlet TWTRLogInButton *twitterButton;

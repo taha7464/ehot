@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProfileTableViewController.h"
+@import Firebase;
+@interface UserViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
-@interface UserViewController : UIViewController
+@property (strong, nonatomic) ProfileTableViewController *profileTableViewController;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) NSDictionary *historyData;
+@property (weak, nonatomic) FIRDatabaseReference *ref;
+
 
 @end

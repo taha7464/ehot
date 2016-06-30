@@ -1,5 +1,5 @@
 //
-//  HistoryTableViewController.h
+//  ProfileTableViewController.h
 //  eat-here-or-there
 //
 //  Created by Dhananjay Suresh on 6/30/16.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 @import SkyFloatingLabelTextField;
-
-@interface HistoryTableViewController : UITableViewController
+@interface ProfileTableViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextField *nameTF;
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextField *emailTF;
 @property (weak, nonatomic) IBOutlet SkyFloatingLabelTextField *locationTF;
+
 
 -(void)intialLoad:(NSDictionary *) values;
 

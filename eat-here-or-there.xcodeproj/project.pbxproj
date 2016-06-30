@@ -14,8 +14,11 @@
 		2262A8441D14454500182672 /* Yelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8431D14454500182672 /* Yelp.m */; };
 		2262A8461D144B5F00182672 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262A8451D144B5F00182672 /* CoreLocation.framework */; };
 		2262A84A1D14509000182672 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262A8491D14509000182672 /* SearchTableViewCell.m */; };
-		22A77F721D1C9F8800DEDDB5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A77F711D1C9F8800DEDDB5 /* UserViewController.m */; };
+		22A77F721D1C9F8800DEDDB5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A77F711D1C9F8800DEDDB5 /* LoginViewController.m */; };
 		22B4867D1D233745009948F8 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4867C1D233745009948F8 /* CreateUserViewController.m */; };
+		22E349501D25AE54006E7454 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E3494F1D25AE54006E7454 /* UserViewController.m */; };
+		22E349531D25B118006E7454 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E349521D25B118006E7454 /* MainViewController.m */; };
+		22E349561D25C99C006E7454 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E349551D25C99C006E7454 /* ProfileTableViewController.m */; };
 		22FD3AE31D135BEB0059B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE21D135BEB0059B2E1 /* main.m */; };
 		22FD3AE61D135BEB0059B2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */; };
 		22FD3AE91D135BEB0059B2E1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */; };
@@ -65,10 +68,16 @@
 		2262A8451D144B5F00182672 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2262A8481D14509000182672 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
 		2262A8491D14509000182672 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
-		22A77F701D1C9F8800DEDDB5 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
-		22A77F711D1C9F8800DEDDB5 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		22A77F701D1C9F8800DEDDB5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		22A77F711D1C9F8800DEDDB5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		22B4867B1D233745009948F8 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
 		22B4867C1D233745009948F8 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		22E3494E1D25AE54006E7454 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		22E3494F1D25AE54006E7454 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		22E349511D25B118006E7454 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		22E349521D25B118006E7454 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		22E349541D25C99C006E7454 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		22E349551D25C99C006E7454 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		22FD3ADE1D135BEB0059B2E1 /* eat-here-or-there.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eat-here-or-there.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FD3AE21D135BEB0059B2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -184,14 +193,20 @@
 				2262A8431D14454500182672 /* Yelp.m */,
 				22FD3AE41D135BEB0059B2E1 /* AppDelegate.h */,
 				22FD3AE51D135BEB0059B2E1 /* AppDelegate.m */,
-				22A77F701D1C9F8800DEDDB5 /* UserViewController.h */,
-				22A77F711D1C9F8800DEDDB5 /* UserViewController.m */,
+				22E349511D25B118006E7454 /* MainViewController.h */,
+				22E349521D25B118006E7454 /* MainViewController.m */,
+				22A77F701D1C9F8800DEDDB5 /* LoginViewController.h */,
+				22A77F711D1C9F8800DEDDB5 /* LoginViewController.m */,
 				22FD3AE71D135BEB0059B2E1 /* SearchViewController.h */,
 				22FD3AE81D135BEB0059B2E1 /* SearchViewController.m */,
 				22FD3AEA1D135BEB0059B2E1 /* FindViewController.h */,
 				22FD3AEB1D135BEB0059B2E1 /* FindViewController.m */,
 				22B4867B1D233745009948F8 /* CreateUserViewController.h */,
 				22B4867C1D233745009948F8 /* CreateUserViewController.m */,
+				22E3494E1D25AE54006E7454 /* UserViewController.h */,
+				22E3494F1D25AE54006E7454 /* UserViewController.m */,
+				22E349541D25C99C006E7454 /* ProfileTableViewController.h */,
+				22E349551D25C99C006E7454 /* ProfileTableViewController.m */,
 				22FD3AED1D135BEB0059B2E1 /* Main.storyboard */,
 				22FD3AF01D135BEB0059B2E1 /* Assets.xcassets */,
 				22FD3AF21D135BEB0059B2E1 /* LaunchScreen.storyboard */,
@@ -533,13 +548,16 @@
 			files = (
 				22B4867D1D233745009948F8 /* CreateUserViewController.m in Sources */,
 				22FD3B1E1D13606D0059B2E1 /* main.m in Sources */,
-				22A77F721D1C9F8800DEDDB5 /* UserViewController.m in Sources */,
+				22E349561D25C99C006E7454 /* ProfileTableViewController.m in Sources */,
+				22A77F721D1C9F8800DEDDB5 /* LoginViewController.m in Sources */,
 				22FD3AEC1D135BEB0059B2E1 /* FindViewController.m in Sources */,
+				22E349531D25B118006E7454 /* MainViewController.m in Sources */,
 				22FD3B201D13606D0059B2E1 /* YPAPISample.m in Sources */,
 				2262A8441D14454500182672 /* Yelp.m in Sources */,
 				22FD3AE61D135BEB0059B2E1 /* AppDelegate.m in Sources */,
 				2262A84A1D14509000182672 /* SearchTableViewCell.m in Sources */,
 				22FD3AE91D135BEB0059B2E1 /* SearchViewController.m in Sources */,
+				22E349501D25AE54006E7454 /* UserViewController.m in Sources */,
 				22FD3B1F1D13606D0059B2E1 /* NSURLRequest+OAuth.m in Sources */,
 				22FD3AE31D135BEB0059B2E1 /* main.m in Sources */,
 			);
